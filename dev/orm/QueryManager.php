@@ -51,6 +51,7 @@ class QueryManager {
                     'submit.submitId as statussubmitId',
                     'submit.userId as statususerId',
                     'volume.taskId as statustaskId',
+                    'UNIX_TIMESTAMP(submit.submitTime) as statustimestamp',
                     'TIME_TO_SEC(TIMEDIFF(submit.submitTime, cntest.start)) as statustime',
                     'lang.ext as statuslangId',
                     'submit.resultId as statusresult,

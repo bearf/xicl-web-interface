@@ -33,6 +33,8 @@ class Status extends Shell {
      */
     protected $langId       = NULL;
 
+    protected $timestamp = NULL;
+
     /**
      * @var string
      */
@@ -73,6 +75,7 @@ class Status extends Shell {
     public function wrap($mapping, $prefix = '') {
         $result = parent::wrap(
             array('submitId', 'taskId', 'userId', 'langId', 
+                'timestamp',
                 'time', 'result', 'task', 'nickname', 'info',
                 'studyplace', 'city', 'division', 'tatarstan'),
             'status',
@@ -133,6 +136,10 @@ class Status extends Shell {
 
     public function getLangId() {
         return $this->langId;
+    }
+
+    public function getTimestamp() {
+        return $this->timestamp;
     }
 
     public function getTime() {

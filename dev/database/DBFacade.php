@@ -11,6 +11,16 @@ class DBFacade {
 
     // *** METHODS
 
+    public function now() {
+        Butler::getSQLWrapper()->begin();
+        $rows = Butler::getSQLWrapper()->query(
+            'SELECT UNIX_TIMESTAMP(now()) as CUR'
+        );
+        $mapping = Butler::getSQLWrapper()->fetch($rows);
+        Butler::getSQLWrapper()->end();
+        return $mapping['CUR'];
+    }
+
     /**
      * @param  $userId int
      * @return PersonalInfo

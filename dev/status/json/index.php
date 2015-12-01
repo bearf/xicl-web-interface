@@ -27,6 +27,7 @@ foreach($status as $_ => $status) {
 	$item[] = '"userId":' . $status->getUserId();
 	$item[] = '"taskId":' . $status->getTaskId();
 	$item[] = '"time":' . $status->getTime();
+	$item[] = '"timestamp":' . $status->getTimestamp();
 	$item[] = '"result":"' . ('OK' === $status->getResult() ? 'AC' : $status->getResult()) . '"';
     $item[] = '"task":"' . $status->getTask() . '"';
     $item[] = '"nickname":"' . $status->getNickname() . '"';
