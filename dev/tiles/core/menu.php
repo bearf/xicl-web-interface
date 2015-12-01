@@ -23,7 +23,7 @@ if (_settings_show_tournament_menu && 'tournament' == get_site_branch($content_t
     </li>
     <li<?='history' == $content_tile_name ? ' class="active"' : ''?>>
         <a href="./history.php">история &amp; архив</a>
-        <span>::<a href="./history.php#about">о турнире</a>, ::<a href="./history.php#2011">2011</a>, ::<a href="./history.php#2012">2012</a>, ::<a href="./history.php#2013">2013</a>, ::<a href="./history.php#2014">2014</a></span>
+        <span>::<a href="./history.php#about">о турнире</a>, ::<a href="./history.php#2012">2012</a>, ::<a href="./history.php#2013">2013</a>, ::<a href="./history.php#2014">2014</a>, ::<a href="./history.php#2015">2015</a></span>
     </li>
     <!--li<?='faq' == $content_tile_name ? ' class="active"' : ''?>>
         <a href="./faq.php">вопрос-ответ</a>
