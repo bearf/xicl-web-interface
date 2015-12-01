@@ -1,0 +1,40 @@
+    body
+    { overflow-y:auto; }
+
+    form 
+    { margin:16px; }
+    
+    h3 
+    { font-size:24px;font-weight:bold;
+      margin:24px 0;padding:0 10px; }
+    
+    table.enter
+    { width:100%;border:1px black solid;
+      table-layout:fixed;border-collapse:collapse; }
+    
+    .enter td
+    { width:180px;padding:10px;
+      border:1px black solid;
+      border-color:black #eee black black; }
+      
+    .enter td label
+    { display:inline; }
+    
+    .enter td
+,   .enter td label
+    { font-size:14px;color:black; }
+    
+    .enter td + td
+    { width:auto;
+      border-right-color:black; }
+    
+    .enter input
+,   .enter select
+,   .enter textarea
+    {  }
+      
+    .enter input[disabled]
+,   .enter select[disabled]
+,   .enter textarea[disabled]
+    { background:white; }
+    

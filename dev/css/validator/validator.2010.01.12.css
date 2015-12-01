@@ -1,0 +1,21 @@
+.validation-messages {
+color:#c2151c;
+font-weight:bold;
+white-space:nowrap;}
+
+.invalid {
+background-color:#c2151c;
+color:white;}
+
+.hidden .inner {
+display:none;}
+
+.none .inner {
+display:none;}
+
+.none-message {display:none;}
+.none .none-message {display:inline;}
+.none .visible-message {display:none;}
+
+.marker { display:none; }
+.invalid-form .marker { display:inline; }

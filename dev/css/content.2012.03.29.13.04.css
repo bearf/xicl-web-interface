@@ -1,0 +1,273 @@
+.message {
+width:auto;
+font-size:11px;
+color:#333;
+border:1px #bbb solid;
+padding:8px;
+margin-bottom:16px;
+background:#efefb8;}
+body.message {
+width:100%;
+border:none;
+padding:0;
+margin:0;
+background:transparent;}
+.message-read {
+width:auto;
+font-size:11px;
+color:#999;
+padding:8px;
+margin-bottom:16px;}
+.message-read h4 {
+}
+
+p.error {
+border:none;
+background:transparent;
+color:red;}
+
+    .noleft p.error
+    { width:auto; }
+
+table {
+border-collapse:separate;
+width:100%;}
+
+th {
+background:#852d02;
+color:white;
+padding:4px;}
+
+th a {
+color:white;
+text-decoration:underline;}
+
+tr.s td {
+background:#f0f0f0;}
+
+tr.active td {
+background:#77914f;
+color:white;}
+tr.active a {
+color:white;
+text-decoration:underline;}
+tr.active a:hover {
+color:white;
+text-decoration:none;}
+tr.active a:active {
+color:black;
+text-decoration:underline;}
+
+td {
+padding:4px;}
+
+tr td.ok {
+background:#77914f;
+color:white;}
+
+tr td.wa {
+background:#852d02;
+color:white;}
+
+table.links {
+margin-top:16px;}
+
+table.links td {
+text-align:center;}
+
+p.pages {
+width:auto;
+margin-top:16px;}
+
+    .noleft p.pages
+    { width:auto; }
+
+.ep {
+font-style:italic;}
+
+            table.enter
+            { width:auto;margin-bottom:20px; }
+
+.enter td {
+vertical-align:top;
+height:20px;line-height:20px;padding:2px 8px 2px 0;}
+
+.enter td.label {
+width:150px;}
+
+label {
+color:#999;}
+
+input, select, textarea {
+padding:2px;
+border:1px #bbb solid;}
+
+input {
+height:16px;line-height:16px;}
+
+input[type=button], input[type=reset], input[type=submit] {
+height:auto;line-height:normal;
+border:none;
+background:white;
+padding:0;
+cursor:pointer;
+color:#77914f;}
+
+input.button, input.reset, input.submit {
+border:none;
+background:white;
+padding:0;
+cursor:pointer;
+color:#77914f;}
+
+.enter input, .enter select, .enter textarea {
+width:200px;}
+
+            .enter input.checkbox
+            {   width:auto;margin:0;
+                position:relative;top:4px; }
+input.checkbox {
+border:none;}
+
+.enter .c {
+text-align:center;}
+
+p.b {
+padding:8px 0;
+background-color:#fafafa;}
+
+.forum .remark {
+width:0;
+padding:0;}
+
+.forum .userdate {
+white-space:nowrap;
+background-color:#fafafa;}
+
+.forum .comment {
+background-color:#fafafa;}
+
+.forum .controls {
+background-color:#fafafa;}
+
+.forum .question {
+vertical-align:top;
+width:100%;}
+
+.forum .actions {
+background-color:#fafafa;}
+
+.info {
+clear:both;
+margin-top:-8px;
+float:right;
+width:250px;
+font-family:arial narrow,arial,sans-serif;
+color:#852d02;
+font-size:18px;
+padding-top:12px;}
+
+.info_header {
+font-size:60px;
+float:left;
+margin-right:16px;
+margin-top:-12px;}
+
+.hint {
+color:#bbb;
+font-size:11px;
+margin-top:16px;
+text-align:right;
+width:300px;
+float:right;}
+
+    .noleft .hint
+    { width:300px; }
+
+    p.code 
+    { padding:8px;
+      font-family:Courier New, Courier, monotype;font-size:12px;
+      background:#eee;
+      border:1px #bbb solid;
+      white-space:pre; }
+
+p.links {
+width:auto;}
+
+    .noleft p.links
+    { width:auto; }
+
+.important {
+font-family:arial narrow, arial, sans-serif;
+font-size:18px;
+color:#852d02;}
+
+.strong {
+font-size:60px;}
+
+tr.invited td {
+background:#ff9;}
+
+tr.unregistered td {
+opacity:0.5;}
+* html tr.unregistered td {
+filter:alpha(opacity=50);}
+
+table.mail tr.s td {background:white;}
+table.mail td {border-top:1px #eee solid;padding:10px;vertical-align:top;}
+table.mail tr.unread td {background:#f0f0f0;}
+table.mail tr:first-child td {border-top:none;}
+td.user {white-space:nowrap;}
+tr.inbound td.user {text-align:right;}
+td.user img {vertical-align:middle;color:#bbb;}
+td.mail {width:100%;}
+a.mail-header {display:block;white-space:nowrap;overflow:hidden;color:#999;}
+.mail-text {
+display:none;
+white-space: pre-wrap;       /* css-3 should we be so lucky... */
+white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+white-space: -pre-wrap;      /* Opera 4-6 ?? */
+white-space: -o-pre-wrap;    /* Opera 7 ?? */
+word-wrap: break-word;       /* Internet Explorer 5.5+ */
+_white-space: pre;   /* IE only hack to re-specify in addition to word-wrap  */
+}
+.mail-text:hover {cursor:pointer;}
+
+        
+    /* STANDING */
+    
+        table.standing th
+    ,   table.standing td
+        { white-space:nowrap; }
+
+        table.standing td.task
+        { color:#bbb; }
+        
+        table.standing td.unsolved
+        { color:#BB1D02; }
+        
+        table.standing td.solved
+        { color:black; }
+        
+        table.standing td.solved span.time
+        { font-size:8px;color:#555; }
+
+        table.standing td.div1
+        {   background:rgba(234, 209, 220, 0.8);  }
+
+        table.standing tr.s td.div1
+        {   background:#ead1dc;  }
+
+        table.standing td.div2
+        {   background:rgba(177, 196, 213, 0.8);  }
+
+        table.standing tr.s td.div2
+        {   background:rgba(177, 196, 213, 1);  }
+
+    /* INVALID */
+
+            .invalid
+            {   background:#900;color:white; }
+
+            .validation-messages
+            {   color:#900;font-weight:bold; }

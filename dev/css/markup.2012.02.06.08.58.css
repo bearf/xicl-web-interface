@@ -1,0 +1,284 @@
+body {
+height:100%;
+background-attachment:fixed;
+background-image:url(../graphic/1px.gif);}
+
+#pure { margin:10px; }
+
+    .left 
+    { position:fixed;z-index:2;
+      left:-91px;width:50%;
+      background:url(../graphic/shadow.png) top right repeat-y; }
+      
+        [class=left] 
+        { min-width:450px; }
+
+        * html .left 
+        { background:none;position:absolute; }
+
+        .left-inner 
+        { text-align:right;
+          height:100%;
+          padding-right:20px;
+          margin-left:91px;margin-right:9px; }
+          
+    .noleft .left
+    { background:white; }
+        
+        .noleft #control.left
+        { left:-50%;margin-left:24px;
+          background:url(../graphic/shadow.png) top right repeat-y; }
+
+        .noleft #control[class=left] 
+        {  }
+
+        .noleft * html #control.left 
+        {  }
+        
+        .noleft #control .left-inner 
+        {  }
+          
+    .right 
+    { position:fixed;
+      left:50%;width:50%;
+      margin-left:-100px;
+      padding-right:100px; }
+
+        [class=right] 
+        { min-width:450px; }
+
+        * html .right 
+        { position:absolute; }
+
+        .right-inner 
+        { padding-left:20px;
+          padding-right:20px;
+          margin-right:-100px; }
+          
+    .noleft #content.right
+    { left:0;
+      width:100%;
+      padding-right:0;
+      margin-left:0; }
+      
+        .noleft .right
+        { z-index:2; }
+
+        .noleft #content[class=right] 
+        {  }    
+
+        .noleft * html #content.right 
+        {  }
+
+        .noleft #content .right-inner 
+        { margin-left:15px;margin-right:0; }
+        
+#content {
+position:absolute;
+top:197px;bottom:0;}
+#content .right-inner {
+padding-top:16px;
+padding-bottom:51px;}
+* html #content .right-inner {
+background:url(../graphic/shadow.gif) top left repeat-y;}
+
+    #homelink
+    { top:0;
+      z-index:3; }
+      
+    #homelink .left-inner
+    {  }
+    
+    #timeleft
+    { top:150px; }
+    
+    #timeleft .left-inner
+    { background:white url(../graphic/code.jpg) top right repeat-y white; }
+
+    #control 
+    { top:197px;height:100%; }
+
+    #control .left-inner 
+    { padding-top:1px;position:relative;top:-1px;
+      background:white url(../graphic/code.jpg) top right repeat-y; }
+
+#header {
+z-index:1;
+background-color:white;
+top:0;height:150px;
+overflow:hidden;}
+* html body #header {
+background:white url(../graphic/shadow.gif) top left repeat-y;}
+
+    #stuff 
+    { top:150px;height:47px;
+      white-space:nowrap;
+      background-color:white; }
+      
+* html #stuff {
+background:url(../graphic/crosspiece-shadowed.gif) top left no-repeat white;}
+#stuff .right-inner {
+background:url(../graphic/crosspiece.gif) top left repeat;
+height:47px;line-height:47px;}
+
+#support, #contacts {
+bottom:0;height:47px;}
+
+#support .left-inner, #contacts .right-inner {
+line-height:47px; height:47px;
+background:url(../graphic/crosspiece.gif) top left repeat;}
+
+#contacts, #support .left-inner {
+background-color:white;}
+* html #contacts {
+background:url(../graphic/crosspiece-shadowed.gif) top left no-repeat white;}
+
+* html #header {
+top:expression(calcScrollTop());}
+* html #stuff {
+top:expression(calcScrollTop()+150);}
+* html #control {
+top:expression(calcScrollTop());}
+* html #support {
+top:expression(calcIEHeight());}
+* html #contacts {
+top:expression(calcIEHeight());}
+
+#xicl-error {
+position:fixed;
+width:300px;
+padding-right:400px;
+left:50%;
+margin-left:-350px;
+top:50%;
+margin-top:-73px;
+height:146px;
+background:url(../graphic/xicl.logo.error.and.login.2012.02.06.08.58.jpg) 300px -5px no-repeat;}
+
+    #xicl-error-content 
+    { width:100%;height:60px;
+      margin-top:40px;
+      color:#333;font-size:12px; }
+
+    #xicl-error-content td 
+    { height:60px;
+      padding:0;
+      vertical-align:middle; }
+      
+    #xicl-error-content p.error
+    { margin:0;padding:0; }
+    
+    #xicl-error-content form a
+    { font-size:11px; }
+    
+    #xicl-error-content input.submit
+    { text-decoration:underline; }
+
+    #xicl-error-content input.submit:hover
+    { text-decoration:none; }
+
+    #xicl-error-content input.submit:active
+    { color:black; }
+
+    #xicl-error-content form 
+    { width:210px;float:right;
+      font-size:11px; }
+
+* html #xicl-error {
+position:absolute;}
+
+#xicl-error-home {
+display:block;
+right:0;top:0;
+height:100%;width:400px;
+position:absolute;}
+#xicl-error-home:hover {
+text-decoration:none;}
+
+#xicl-error-content p.message {
+text-align:right;
+position:relative;
+top:16px;
+clear:both;}
+
+#xicl-error-content p.error {
+top:0;}
+
+    .anchor 
+    { position:relative;display:block;top:-213px; } 
+
+#toolbar {
+position:fixed;
+top:150px;left:20px;
+height:16px;
+padding:15px 0;
+z-index:3;}
+* html #toolbar {
+position:absolute;
+top:expression(calcScrollTop() + 150);}
+
+#toolbar span, #toolbar a {
+display:block;
+float:left;}
+#toolbar img {
+}
+
+        #toolbar span.noheader                  { display:none; }
+        body.noheader #toolbar span.noheader    { display:block; }
+        body.noheader #toolbar span.header      { display:none; }
+
+        #toolbar span.tbleft                    { display:none; }
+        body.noleft #toolbar span.tbleft        { display:block; }
+        body.noleft #toolbar span.noleft        { display:none; }
+
+    body.noheader #content 
+    { top:62px; }
+    
+    body.noheader #timeleft
+    { top:15px; }
+    
+    body.noheader #control
+    { top:62px; }
+
+    body.noheader #header 
+    { height:15px; }
+    
+    body.noleft #header
+    { z-index:3; }
+    
+body.noheader #header h1 {
+display:none;}
+
+    body.noheader #stuff 
+    { top:15px; }
+    
+    body.noheader.noleft #stuff
+    { top:0;padding-top:15px; }
+          
+    body.noheader #toolbar 
+    { left:175px; }
+    body.noheader #toolbar 
+    { top:15px; } 
+    * html body.noheader #toolbar 
+    { top:expression(calcScrollTop() + 15); }
+    
+    body.noheader .anchor 
+    { top:-78px; }
+
+    body.noheader #home 
+    { position:relative;z-index:1;
+      width:181px;height:65px;
+      margin-left:0;margin-top:5px;padding-top:0px;margin-bottom:-55px;
+      background:url(../graphic/xicl.logo.small.2012.02.06.08.58.png) 12px 2px no-repeat; }
+      
+body.noheader #controls {
+margin-top:20px;}
+* html body.noheader #stuff {
+top:expression(calcScrollTop() + 20);}
+* html body.noheader #home {
+display:inline;
+float:left;}
+*:first-child+html body.noheader #home {
+float:left;}
+
+

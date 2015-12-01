@@ -1,0 +1,84 @@
+/* INPUT with SUGGESTION */
+
+    /* container */
+
+        .mosaic-inputs-combobox-container
+        { height:24px;line-height:22px;position:relative; }
+
+            .mosaic-inputs-combobox-outer-container
+            { width:206px; }
+
+    /* value */
+
+        .mosaic-inputs-combobox-value
+        { height:22px;padding:0 6px;
+          white-space:nowrap;overflow:hidden;
+          border:1px #ccc solid;
+          background:white;
+          color:#333;
+          cursor:pointer; }
+
+            .mosaic-inputs-combobox-value
+            { width:192px; }
+
+        .mosaic-inputs-combobox-value-prompt
+        { color:#ccc;
+          font-style:italic; }
+
+    /* editable area */
+
+        .mosaic-inputs-combobox-editable-area
+        { display:none;
+          position:absolute;z-index:1;
+          left:1px;top:1px;right:3px;bottom:1px;
+          background:white; }
+
+        .mosaic-inputs-combobox-editable-area-active
+        { display:block; }
+
+        /* background */
+
+            .mosaic-inputs-combobox-editable-area-background
+            { position:relative;z-index:-1;
+              height:24px;line-height:24px;
+              white-space:nowrap;overflow:hidden;
+              margin:-1px 0 0 0;
+              padding:0 6px;
+              color:#ccc; }
+
+        /* input */
+
+            .mosaic-inputs-combobox[type=text]
+            { display:block;
+              width:98%;height:22px;line-height:22px;
+              padding:0 0 0 5px;
+              margin:-24px 0 0 -1px;
+              background:transparent;border:1px #ccc solid;border-right:0;
+              color:#333; }
+
+                .forms-grid .mosaic-inputs-combobox[type=text]
+                { width:386px; }
+
+            .mosaic-inputs-combobox[type=text]:focus
+            { outline:0; }
+            
+    /* button */
+
+       .mosaic-inputs-combobox-button
+        { top:0;right:0;
+          margin-top:4px;
+          position:absolute;z-index:1;
+          width:24px;height:24px;line-height:24px;
+          text-indent:100px;overflow:hidden;
+          background-position:-135px -927px; }
+
+          .mosaic-inputs-combobox-button:focus
+            { outline:0;
+              background-position:-135px -927px; }
+
+          .mosaic-inputs-combobox-button:hover
+            { background-position:-135px -927px; }
+
+          .mosaic-inputs-combobox-button:active
+            { background-position:-135px -927px; }
+

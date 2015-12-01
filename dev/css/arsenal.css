@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Arsenal';
+    src: url('../fonts/arsenal-regular.eot');
+    src: local('Arsenal'), local('Arsenal Regular'), url('../fonts/arsenal-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arsenal';
+    src: local('Arsenal'), local('Arsenal Bold'), url('../fonts/arsenal-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arsenal';
+    src: local('Arsenal'), local('Arsenal Bold Italic'), url('../fonts/arsenal-bolditalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Arsenal';
+    src: local('Arsenal'), local('Arsenal Italic'), url('../fonts/arsenal-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}

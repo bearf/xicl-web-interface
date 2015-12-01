@@ -1,0 +1,144 @@
+@import "./arsenal.css";
+
+body
+{	font-family:Arsenal,'Courier New';
+	font-size:16px;
+	overflow:hidden;
+	padding-top:3em; }
+
+#mtable
+{	margin:0;
+	position:relative; }
+
+	.fast-scroll #mtable
+	{	-webkit-transition:all 0.1s linear;
+		-moz-transition:all 0.1s linear; }
+
+	.slow-scroll #mtable
+	{	-webkit-transition:all 1s ease;
+		-moz-transition:all 1s ease; }
+
+	.turtle-scroll #mtable
+	{	-webkit-transition:all 25s ease;
+		-moz-transition:all 25s ease; }
+
+header
+{	position:fixed;
+	overflow:hidden;
+	top:0;left:0;right:0;
+	background:white;
+	box-shadow:0 1px 2px 0;
+	height:1.5em;line-height:1.5em;
+	font-size:2em;
+	text-align:center;
+	-webkit-transition:height 0.5s ease; }
+
+header.info
+{	height:15em; }
+
+	header p
+	{	margin:0; }
+
+.any-key #time:after
+{	content:'*'; }
+
+.not-started #time:before
+{	content:'не начат: ';}
+
+.finished #time:before
+{	content:'завершен: ';}
+
+.frozen #time:before
+{	content:'заморожен: ';}
+
+table
+{	width:100%;table-layout:fixed;
+	border-collapse:collapse;
+	-webkit-transition:all 0.5s ease; }
+
+tr
+{	position:relative;
+	-webkit-transition:all 0.1s linear;
+	-moz-transition:all 0.1s linear; }
+
+td, th
+{	padding:0;
+	width:4%;
+	white-space:nowrap;
+	overflow:hidden;
+	text-align:left; }
+
+th.nickname, td.nickname
+{	width:auto;}
+
+td>span, th>span
+{	display:block;
+	padding:0.25em 0.5em;
+	height:2em;
+	line-height:1em;
+	border-top:2px #ddd solid;
+	background:white;
+	-webkit-transform:all 2s ease; }
+
+td>span>span, th>span>span
+{	line-height:2em; }
+
+span.accepted,
+span.rejected
+{	line-height:1em; }
+
+.verdict
+{	position:absolute;
+	zIndex:999;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease; }
+
+	.verdict-done
+	{	-webkit-transform:scale(20);
+		-moz-transform:scale(20);
+		opacity:0; }
+
+.marker
+{	position:absolute;
+	zIndex:999;
+	width:5em;height:5em;
+	border-radius:3.5em;
+	border-width:1em;
+	border-style:solid;
+	margin:-2.5em 0 0 -2.5em;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-webkit-transform:scale(20);
+	-moz-transform:scale(20); }
+
+	.marker.accepted
+	{	border-color:green; }
+
+	.marker.rejected
+	{	border-color:red;}
+
+	.marker.marker-done
+	{	-webkit-transform:scale(0.5);
+		-moz-transform:scale(0.5);
+		opacity:0; }
+
+tr.even td>span
+{	background:#ddd; }
+
+.time
+{	display:block;font-size:0.75em; }
+
+.current td>span
+{	background:yellow; }
+
+	.accepted
+	{	color:green;}
+
+	.rejected
+	{	color:red;}
+
+	.postponed
+	{	color:blue;}
+
+/*.current:nth-child(2n+1) td
+{	background:#0dd; }*/

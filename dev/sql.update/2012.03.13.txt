@@ -1,0 +1,5 @@
+// A. перенести прикрепление пользователей к командам в отдельную таблицу
+INSERT INTO members(userid, teamid) SELECT id AS userid, teamid FROM `user` WHERE teamid > -1
+
+// B. Проверка, что максимум 3 человека в команде
+SELECT MAX(x) FROM (SELECT COUNT(*) as x FROM members GROUP BY userid) S
