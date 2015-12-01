@@ -251,9 +251,7 @@
 
 			updateSubmit( submit ).done( function() {
 				if (ok( submit )) {
-					anyKey().done( function() {
-						def.reject();
-					} );
+					def.reject();
 				} else {
 					revealSubmits( tm ).done( function() {
 						def.resolve();
