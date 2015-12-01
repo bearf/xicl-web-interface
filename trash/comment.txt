@@ -1,0 +1,8 @@
+для перевода в режим tsys:
+  
+  * const.php - выставить значение IsLoginNeed в 1
+  * const.php - выставить значение _permission_is_user_data_secure в true
+  * const.php - выставить значение _permission_allow_register_new_user в false
+  * const.php - выставить значение _permission_allow_change_info в false
+  * const.php - выставить значение _settings_show_main_site_url в false
+  * const.php - выставить значение _system_site_title

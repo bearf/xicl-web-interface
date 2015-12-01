@@ -1,0 +1,389 @@
+/* DEBUG */
+
+div#main {
+  border: 1px white solid
+}
+
+/* ВЕРСТКА */
+
+html, body {
+  margin: 0
+}
+
+body {
+  padding: 8px
+}
+
+img#logo {
+  display: block
+}
+
+div#header {
+  margin: 0 180px 1px 0;
+  white-space: nowrap;
+  padding-top: 8px
+}
+
+img.crosspiece {
+  vertical-align: middle
+}
+
+div#login {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 180px;
+  height: 100px;
+  background-color: white; /* для маленьких экранов */
+  border-left: 4px white solid
+}
+
+div#main {
+  position: relative
+}
+
+div#left {
+  position: absolute;
+  left: 0;
+  width: 180px
+}
+
+div#right {
+  position: relative;
+  margin-left: 180px
+}
+
+div#stuff {
+  padding: 4px;
+  white-space: nowrap;
+  margin: 1px 0
+}
+
+div#content {
+  padding: 8px
+}
+
+div#content img.content {
+  display: block;
+  float: left
+}
+
+div.cleaner {
+  clear: both
+}
+
+div#footer {
+  position: relative; /* defeat IE bug */
+  margin: 0 1px 1px 1px
+}
+
+div#feature {
+  margin-left: 180px;
+  padding: 4px
+}
+
+/* ДИЗАЙН */
+
+/* общие элементы */
+
+body {
+  background-color: white;
+  color: black;
+  font-family: tahoma, verdana, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none
+}
+
+form {
+  margin: 0
+}
+
+/* блоки */
+
+div#main {
+  background-color: #606080;
+}
+
+div#left {
+  background-color: #606080
+}
+
+div#right {
+  padding-left: 1px; /* для создания отступа */
+  background-color: white
+}
+
+div#header {
+  text-align: center;
+  background-image: url('header.gif');
+  background-repeat: no-repeat
+}
+
+div#stuff {
+  background-color: #606080;
+  color: white;
+  text-align: right
+}
+
+div#footer {
+  background-color: #8080a0
+}
+
+div#feature {
+  border-left: 1px white solid;
+  background-color: #606080;
+  color: white;
+  text-align: right
+}
+
+/* меню */
+
+ul#menu {
+  display: block;
+  list-style-type: none;
+  margin: 0 0 32px 0;
+  padding: 0
+}
+
+ul#menu li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px white solid
+}
+
+ul#menu li a {
+  display: block;
+  text-align: center;
+  background-color: #606080;
+  padding: 4px;
+  color: white;
+  border-left: 8px #404060 solid;
+  border-right: 8px #8080a0 solid
+}
+
+ul#menu li a:hover {
+  background-color: #8080a0;
+  border-left: 8px #606080 solid;
+  border-right: 8px #a0a0c0 solid;
+  text-decoration: none
+}
+
+/* форма входа */
+
+div#login form {
+  text-align: right;
+  padding: 4px 4px 0 4px;
+  color: black
+}
+
+div#login form input {
+  width: 100px
+}
+
+/* контролы */
+
+input {
+  margin: 1px;
+  padding: 1px 8px;
+  border: 1px #bbb solid;
+  background-color: white;
+  font-size: 11px
+}
+
+html > body input.cb {
+  background-color: white;
+  border: 1px #bbb solid;
+}
+
+input.cb {
+  padding: 0;
+  border: none
+}
+
+/* таблицы */
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 99.9%;
+}
+
+  th {
+    padding: 4px;
+    background-color: #606080;
+    border: 1px white solid;
+    color: white
+  }
+
+  td {
+    padding: 4px;
+    border: 1px white solid
+  }
+
+  tr.s td {
+    background-color: #efefff
+  }
+
+  td.ok {
+    color: green
+  }
+
+  td.wa {
+    color: red
+  }
+
+table.links {
+/*border: 2px black solid*/
+}
+
+  table.links td {
+  /*border: 2px black solid;*/
+    text-align: center
+  }
+
+table.enter {
+  width: auto
+}
+
+table.standard {
+	width: auto
+}
+
+  table.standard th {
+    background-color: #efefef;
+    border: 1px black solid;
+    color: black
+  }
+
+  table.standard td {
+    border: 1px black solid
+  }
+  
+table.forum {
+  border-collapse: separate;
+  margin-bottom: 8px
+}
+
+  table.forum td {
+    padding: 4px;
+    border: 1px #efefef solid;
+    vertical-align: top
+  }
+  
+  table.forum td.userdate {
+    width: 15%;
+    background-color: #efefff;
+  }
+  
+  table.forum td.controls {
+    /*background-color: #efefef*/
+  }
+  
+  table.forum td.comment {
+    /*background-color: #ffffef*/
+  }
+  
+  table.forum td.remark {
+    color: #bfbfbf;
+    font-weight: bold;
+    width: 10%
+  }
+
+/* ссылки */
+
+a {
+  color: #1c5da2;
+  font-weight: bold;
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+a.white {
+  color: white
+}
+
+/* списки */
+
+ul {
+  margin: 8px;
+  padding: 0
+}
+
+ul li {
+  margin-left: 16px
+}
+
+/* текст */
+
+h1 {
+  display: inline;
+  font-size: 24px;
+  font-weight: bold;
+  color: #8080a0
+}
+
+h2 {
+  background-color: #8080a0;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  margin: 0;
+  border-bottom: 1px white solid;
+  border-top: 1px white solid;
+  font-size: 12px;
+  font-weight: normal
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin: 8px 0;
+  text-align: center
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  margin: 8px 0
+}
+
+p {
+  margin: 8px 0;
+  text-align: justify
+}
+
+.i {
+  font-style: italic
+}
+
+.c {
+  text-align: center
+}
+
+.r {
+  text-align: right
+}
+
+.top {
+  vertical-align: top
+}
+
+p.code {
+	font-family: courier new, monospace;
+	font-size: 12px
+}
+
+/* прочее */
+
+hr {
+  display: block;
+  margin: 8px 0;
+  padding: 0
+}

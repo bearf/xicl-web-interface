@@ -1,0 +1,92 @@
+[22.02.2008]
+
+1. Отменена привязка к контесту под #1
+
+ - changeinfo.php
+ - contests.php
+ - index.php
+ - login.php
+ - logout.php
+ - news.php
+ - problem.php
+ - problemset.php
+ - register.php
+ - submit.php
+ - userinfo.php
+ 
+2. Добавлен новый warning
+ - const.php
+ - message.php
+ 
+3. Добавлена проверка регистрацию в страницах
+ - contest.php
+ - problem.php
+ - problemset.php
+ - standing.php
+ - status.php
+ - submit.php
+ 
+[26.02.2008]
+
+1. Добавлена проверка регистрации в странице
+ - questions.php
+ 
+2. Принято решение все сообщения записывать в виде констант в const.php.
+
+[11.03.2008]
+
+1. Добавлены страницы 
+ - addqform.php
+ - qmessage.php
+ - addq.php
+ 
+2. Модифицированы для вопросов
+ - const.php
+ - problemset.php
+ - problem.php
+ - contest.css
+ 
+[12.03.2008]
+
+1. Изменен запрос на задачи в problemset, чтобы он отображал количество вопросов, на которые нет ответа
+2. Короче... сделана админка для вопросов
+
+[13.03.2008]
+
+1. Добавлена константа _permission_is_user_data_secure в const.php
+2. Страницы для изменений:
+
+ + userinfo
+ + standing
+ + status
+ + questions
+ 
+3. Добавлены константы
+
+ * _permission_allow_register_new_user
+ 
+   + register.php
+   
+ * _permission_allow_change_info
+ 
+   + changeinfo.php
+   
+4. Все сообщения из message.php перенесены в const.php
+5. Меню вынесено в menu.php
+
+   + все страницы сайта, использующие меню
+   
+6. Добавлена константа _permission_allow_print
+7. Таблица print перенесена в базу contest
+8. Создана страница printform.php
+   * addprint.php
+   * pmessage.php
+   
+[14.03.2008]
+
+1. Создана страница stuff.php
+2. В const.php добавлена константа _settings_show_main_site_url
+   + изменению подлежат все страницы
+3. Изменен standing.php для показа монитора
+4. Поменяли цветовую схему на серую
+5. Монитор показывает всех пользователей

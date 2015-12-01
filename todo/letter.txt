@@ -1,0 +1,67 @@
+Простите за беспокойство но ваша система категорически не хочет компилировать мой C++ шаблон
+
+#pragma comment(linker, "/STACK:10000000"
+
+#include <vector>
+#include <list>
+#include <map>
+#include <set>
+#include <deque>
+#include <queue>
+#include <bitset>
+#include <sstream>
+
+#include <algorithm>
+#include <functional>
+#include <numeric>
+#include <utility>
+#include <iostream>
+
+#include <cstdio>
+#include <cmath>
+#include <cstdlib>
+#include <ctime>
+#include <cstring>
+#include <cassert>
+
+using namespace std;
+
+#define forn(i, n) for(int i = 0; i < int(n); ++i)
+#define for1(i, n) for(int i = 1; i <= int(n); ++i)
+#define ford(i, n) for(int i = int(n) - 1; i >= 0; --i)
+#define fore(i, l, r) for(int i = int(l); i < int(r); ++i)
+#define iter(i, v) for(typeof((v).begin()) i = (v).begin(); i != (v).end(); i++)
+
+#define sz(v) int((v).size())
+#define all(v) (v).begin(), (v).end()
+#define pb push_back
+
+#define X first
+#define Y second
+#define mp make_pair
+
+#define sqr(a) ((a) * (a))
+#define abs(a) ((a) < 0 ? -(a) : (a))
+#define debug(x) {cerr << #x << " = " << x << endl;}
+
+typedef long long li;
+typedef long double ld;
+typedef pair<int, int> pt;
+
+const int INF = (int)1E9 + 7;
+const ld EPS = 1E-9;
+const ld PI = 3.1415926535897932384626433832795;
+
+const int NMAX = (int)1E3 + 7;
+
+int main() {
+freopen("input.txt", "rt", stdin);
+//freopen("output.txt", "wt", stdout);
+return 0;
+}
+
+
+вопрос почему??
+
+-- 
+Agapov Gerald Alexandrovich
