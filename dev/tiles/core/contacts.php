@@ -1,4 +1,4 @@
 <?php function contacts() { ?>
 контакты: <?php userlink('Наталья Гришина', 1926)?>
-<a href="mailto:n.grishina@icl.kazan.ru">n.grishina@icl.kazan.ru</a>
+<a href="mailto:natalia.grishina@icl-services.com">natalia.grishina@icl-services.com</a>
 <?php } ?>
