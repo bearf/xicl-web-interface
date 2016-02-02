@@ -16,7 +16,7 @@ if (_settings_show_tournament_menu && 'tournament' == get_site_branch($content_t
     </li>
     <li<?='qualification' == $content_tile_name ? ' class="active"' : ''?>>
         <a href="./qualification.php">отборочный тур</a>
-        <span>::<a href="./qualification.php#common">проведение</a><!--, ::<a href="./qualification.php#compilators">компиляторы</a>, <!--::<a href="./qualification.php#ranking">ранжирование</a>,<br /--> ::<a href="./qualification.php#quotes">квоты</a></span>
+        <span>::<a href="./qualification.php#common">проведение</a>, ::<a href="./qualification.php#quotes">квоты</a>, ::<a href="./qualification.php#wildcard">wild-card</a></span>
     <li<?='foreign' == $content_tile_name ? ' class="active"' : ''?>>
         <a href="./foreign.php">иногородним</a>
         <span>::<a href="./foreign.php#residence">проживание</a>, ::<a href="./foreign.php#transport">транспорт</a>, ::<a href="./foreign.php#food">питание</a>, ::<a href="./foreign.php#invitation">приглашение</a></span>
