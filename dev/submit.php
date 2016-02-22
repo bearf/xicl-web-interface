@@ -48,7 +48,7 @@ if (isset($btn_submit) && (!isset($changeLang) || 'true' !== $changeLang)) {
     // пытаемся достать инфу о языке
     // todo: foreign keys
     if (!isset($msg)) {
-        $q = $mysqli_->prepare('SELECT COUNT(*) FROM Lang WHERE LangID=?');
+        $q = $mysqli_->prepare('SELECT COUNT(*) FROM Lang WHERE LangID=? AND invisible=0');
         $q->bind_param('i', $lang);
         $q->bind_result($tmp_lang);
         if (!$q->execute()) { fail(_error_mysql_query_error_code); } // auto-close query
@@ -139,7 +139,7 @@ data('contests', $contests);
 // конец запроса инфы о доступных контестах
 
 // запрос инфы о доступных языках
-$r = $mysqli_->query('SELECT L.LangID, L.Desc, L.Ext FROM lang L where L.langID=1 or L.langID>6 order by LangID');
+$r = $mysqli_->query('SELECT L.LangID, L.Desc, L.Ext FROM lang L where invisible=0 order by LangID');
 //$r = $mysqli_->query('SELECT L.LangID, L.Desc, L.Ext FROM lang L order by LangID');
 if (!$r) { fail(_error_mysql_query_error_code); } // auto-close query
 $langs = array();
