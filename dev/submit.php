@@ -89,13 +89,16 @@ if (isset($btn_submit) && (!isset($changeLang) || 'true' !== $changeLang)) {
         $ip = getenv('REMOTE_ADDR');
 
         $q = $mysqli_->prepare('INSERT INTO'
-            .' submit(ProblemID, ContestID, UserID, Attempt, SubmitTime, LangID, Source, Forwarded, IP)'
-            .' VALUES(?, ?, ?, ?, NOW(), ?, ?, ?, ?)');
+            .' submit(ProblemID, ContestID, UserID, Attempt, SubmitTime, LangID, Source, Forwarded, IP, Detached)'
+            .' VALUES(?, ?, ?, ?, NOW(), ?, ?, ?, ?, ?)');
         // todo: check if s for source?
         $solve = get_magic_quotes_gpc() ? stripslashes($solve) : $solve;
-        $q->bind_param('siiiisss', $problem, $contest, $user, $attempt, $lang, 
+        // detached flag
+        $detached = isset($_POST['detached']);
+        $q->bind_param('siiiisssi', $problem, $contest, $user, $attempt, $lang, 
             $solve, 
-            $forward, $ip);
+            $forward, $ip,
+            $detached);
         if ($q->execute() && 1 == $q->affected_rows) {
             $q->close();
 

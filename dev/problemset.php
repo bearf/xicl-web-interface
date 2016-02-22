@@ -75,17 +75,17 @@ if (isset($volume)) {
         $q->bind_result($var);
         $q->execute(); $q->fetch(); $q->close();
 
-        $q = $mysqli_->prepare('SELECT COUNT(*) FROM submit S INNER JOIN testing T ON S.submitId = T.submitId WHERE T.result = 0 AND S.contestId = ? AND S.resultId = 0 AND S.problemId = ?');
+        $q = $mysqli_->prepare('SELECT COUNT(*) FROM submit S INNER JOIN testing T ON S.submitId = T.submitId WHERE T.result = 0 AND S.contestId = ? AND S.resultId = 0 AND S.problemId = ? AND detached=0');
         $q->bind_param('is', $contest, trim($problem->ProblemID));
         $q->bind_result($problem->Solved);
         $q->execute(); $q->fetch(); $q->close();
 
-        $q = $mysqli_->prepare('SELECT COUNT(*) FROM submit S INNER JOIN testing T ON S.submitId = T.submitId WHERE T.result = 0 AND S.contestId = ? AND S.problemId = ? and S.userid=?');
+        $q = $mysqli_->prepare('SELECT COUNT(*) FROM submit S INNER JOIN testing T ON S.submitId = T.submitId WHERE T.result = 0 AND S.contestId = ? AND S.problemId = ? and S.userid=? AND detached=0');
         $q->bind_param('isi', $contest, trim($problem->ProblemID), $curuserid);
         $q->bind_result($problem->MyAttempt);
         $q->execute(); $q->fetch(); $q->close();
 
-        $q = $mysqli_->prepare('SELECT COUNT(*) FROM submit S INNER JOIN testing T ON S.submitId = T.submitId WHERE T.result = 0 AND S.contestId = ? AND S.problemId = ?');
+        $q = $mysqli_->prepare('SELECT COUNT(*) FROM submit S INNER JOIN testing T ON S.submitId = T.submitId WHERE T.result = 0 AND S.contestId = ? AND S.problemId = ? AND detached=0');
         $q->bind_param('is', $contest, trim($problem->ProblemID));
         $q->bind_result($problem->Attempt);
         $q->execute(); $q->fetch(); $q->close();

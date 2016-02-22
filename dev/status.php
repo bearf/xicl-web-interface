@@ -1,6 +1,8 @@
 <?php
 require_once('./config/require.php');
 
+global $is_admin;
+
 // todo: check all usecases
 // todo: check отсутствие prepared statement
 
@@ -25,7 +27,7 @@ $q->close();
 $q = 'SELECT'
     .' S.SubmitID, S.ProblemID, U.ID, U.Nickname, L.Ext, S.Message, S.StatusID, S.ResultID, S.SubmitTime, S.TotalTime, S.TotalMemory'
     .' FROM Submit S, User U, Lang L'
-    .' WHERE S.UserID = U.ID AND S.LangID = L.LangID AND S.ContestID = ?';
+    .' WHERE S.UserID = U.ID AND S.LangID = L.LangID AND S.ContestID = ?'.(1 != $is_admin ? ' AND S.Detached=0' : '');
 if (isset($problem)) { $q .= ' AND S.ProblemID = ?'; }
 if (isset($userid)) { $q .= ' AND S.UserID = ?'; }
 if (isset($top)) { $q .= ' AND S.SubmitID <= ?'; }

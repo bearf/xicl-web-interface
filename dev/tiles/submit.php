@@ -9,6 +9,7 @@ $lang = _data('lang');
 $contest = _data('contest');
 $problem = _data('problem');
 $solve = _data('solve');
+global $is_admin;
 // todo: check stripslashes
 ?>
 <?php
@@ -33,6 +34,15 @@ endif;
                  <input type="password" name="pass" maxlen="20" size="20" value="<?=$pass?>">
                </td>
              </tr>
+             <?php if (1 == $is_admin): ?>
+              <tr>
+                <td></td>
+                <td>
+                    <?php $checked = isset($_POST['btn_submit']) ? isset($_POST['detached']) : true; ?>
+                 <input style="width:auto;" type="checkbox" name="detached" <?php echo $checked ? 'checked' : ''; ?>> отправка в режиме администратора (посылка не видна обычным пользователям)
+               </td>
+             </tr>
+             <?php endif; ?>
              <tr>
                <td>Задача</td>
                <td>

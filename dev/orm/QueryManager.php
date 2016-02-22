@@ -70,6 +70,7 @@ class QueryManager {
                     INNER JOIN user U on submit.userId = U.id
                 WHERE',
                     'submit.contestId = "%d" AND T.result = 0 AND (submit.resultId = 21 OR submit.resultId = 255 OR submit.totalTime > 0 OR submit.totalMemory > 0) /* tested solutions */
+                    AND submit.detached=0
                     AND submit.submitId > ' . (NULL !== $since ? $since : 0) . '
                 ORDER BY',
                     'submit.submitId ASC'
