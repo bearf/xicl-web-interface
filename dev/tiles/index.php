@@ -3,18 +3,54 @@
 <a href="#" id="notes" class="anchor"></a>
 <h3>Новости</h3>
 
-<p class="message" style="width:350px;"><strong>Результаты отборочного тура</strong>
+<p class="message" style="width:350px;"><strong>Опубликовано <a href="#timetable">расписание турнира</a></strong>
 
-<p>Результаты: <a href="https://docs.google.com/spreadsheets/d/13mRwICZqhW6_gzrsmnzmvoa1ke0FRzsgD-HA4nOIzp4/edit?usp=sharing">https://docs.google.com/spreadsheets/d/13mRwICZqhW6_gzrsmnzmvoa1ke0FRzsgD-HA4nOIzp4/edit?usp=sharing</a>
+<p class="message" style="width:350px;"><strong>Результаты отборочного тура. Обновлено</strong>
 
-<p>Если ваша команда прошла в основной тур (в результате отбора либо по специальному приглашению), то в срок до 29 февраля включительно вам необходимо:
-    
-    <ul><li>заполнить <a href="https://docs.google.com/forms/d/1LWVDIHPubQ7thRv4E4kD5kXJw7u8SnZc9fnNod1RFoA/viewform">анкету подтверждения участия</a> (одна на команду);
-        <li>заполнить три <a href="https://docs.google.com/forms/d/1aZ956Z_tLWptQJFkuUR01vDuzVShS_cIWW879hu2e-g/viewform">анкеты участника</a> (на каждого из членов команды).</li></ul>
-    
-<p>Если ваша команда была зарегистрирована на отбор, участвовала в нём, но не отображена в таблице, либо не отмечена, как зарегистрированная, пишите на контактный e-mail Наталье Гришиной: <a href="mailto:natalia.grishina@icl-services.com">natalia.grishina@icl-services.com</a>.
+<p><strong>Результаты</strong>: <a href="https://docs.google.com/spreadsheets/d/13mRwICZqhW6_gzrsmnzmvoa1ke0FRzsgD-HA4nOIzp4/edit?usp=sharing">https://docs.google.com/spreadsheets/d/13mRwICZqhW6_gzrsmnzmvoa1ke0FRzsgD-HA4nOIzp4/edit?usp=sharing</a>.
 
-<p>Из таблицы результатов исключены команды, не решившие ни одной задачи.
+<p><strong>Важно</strong>: если ваша команда приглашена на Турнир (по результатам отбора, или по личному приглашению), то, пожалуйста, в срок до 29 февраля включительно:
+
+<ul>
+<li>заполните <a href="https://docs.google.com/forms/d/1LWVDIHPubQ7thRv4E4kD5kXJw7u8SnZc9fnNod1RFoA/viewform">форму подтверждения участия</a> (одна на команду);</li>
+<li>укажите состав, заполнив три <a href="https://docs.google.com/forms/d/1aZ956Z_tLWptQJFkuUR01vDuzVShS_cIWW879hu2e-g/viewform">анкеты участника турнира</a>.</li></ul>
+
+<p>Если ваша команда по каким-то причинам не может принять участие в турнире, пожалуйста, напишите об этом письмо Наталье Гришиной на адрес natalia.grishina@icl-services.com.
+
+<p>На эту минуту своё участие не подтвердили следующие команды:
+
+<ul><li>SPb SU Base: Ershov, Gordeev, Pyshkin</li>
+<li>Moscow SU Trinity: Akhmedov, Gorbunov, Shlyunkin</li>
+<li>Moscow IPT Jinotega: Semenov, Smirnov, Zhuk</li>
+<li>SPb SU 3: Gulikov, Makarov, Sayranov</li>
+<li>Belarusian SUIR 2: Sobal, Vistyazh, Volchek</li>
+<li>UrFU + LNU + PermSU: Kuchumov, Mayorov, Pryshchenko</li>
+<li>Innopolis U Known: Kiyan, Mashrabov, Savinov</li>
+<li>Mytischi Programming School</li>
+<li>Innopolis U Optimus</li>
+<li>SCH_Kazan Lyceum 131 Levushka</li>
+<li>SCH_Kazan Lyceum 131 Kazanskoe derevo</li>
+<li>Malinux (Казань):Нуриев Наиль, Кидрачев Альберт, Гумеров Арслан</li>
+<li>Они (Казань): Староверов Арсений, Зверев Игорь. Терехов Николай</li>
+<li>KPFU Lyceum #7</li></ul>
+
+<p>Следующие команды подтвердили участие, но не указали полную информацию о составах:
+
+<ul><li>Nizhny Novgorod + Moscow + Kachkanar Awww</li>
+<li>Kazan Lyceum №131 HArMoNY</li>
+<li>Chelyabinsk Lyceum №31 TEAM 1489</li>
+<li>Lyceum KFU $</li>
+<li>Kazan + Aktanysh Sch №122 + №19 + №3 Unique</li>
+<li>Kazan Federal U #2</li>
+<li>Nizhnekamsk Lyceum №24 LI24</li>
+<li>Kazan Federal U #4 Noobs</li>
+<li>Kazan Federal U #3</li>
+<li>SCH_Nizhnekamsk Lyceum #35 + Lyceum #24</li>
+<li>ITL KFU ARA</li>
+<li>ITL KFU #infa 100</li>
+<li>ITL KFU #1</li></ul>
+
+<p>Пожалуйста, не опаздывайте, укажите всю информацию в срок.
 
 <p class="message" style="width:350px;"><strong>ICL'16 &mdash; 13 марта. Обновлено</strong>
     
@@ -52,47 +88,40 @@
 <a href="#" id="timetable" class="anchor"></a>
 <h3>расписание турнира</h3>
 <table>
-<tr><th>Дата</th>
-<th>Событие</th></tr>
-<!--tr><td>15 февраля, воскресенье<br />11:00&mdash;16:00 MSK</td>
-<td>Отборочный тур, контест A</td></tr>
-<tr><td>22 февраля, воскресенье<br />11:00&mdash;16:00 MSK</td>
-<td>Отборочный тур, контест B</td></tr>
-<tr><td>24 февраля, вторник &mdash;<br />
-25 февраля, среда</td>
-<td>Объявление результатов отбора</td></tr-->
-<tr><td>12 марта, суббота</td>
-<td>Открытие и пробный тур</td></tr>
-<tr><td>13 марта, воскресенье</td>
-<td>Основной тур и закрытие</td></tr>
-<!--tr><th colspan="2">14 марта, суббота (время московское)</th></tr>
+<!--tr><th>Дата</th>
+<th>Событие</th></tr-->
+<tr><th colspan="2">12 марта, суббота (время московское)</th></tr>
 <tr>
     <td>9.00&mdash;10.00</td>
-    <td>Регистрация (фойе второго корпуса КФУ)</td>
+    <td>Регистрация команд</td>
 </tr>
 <tr>
     <td>10.00&mdash;11.00</td>
-    <td>Открытие турнира (библиотека КФУ)</td>
+    <td>Открытие турнира</td>
 </tr>
 <tr>
     <td>11.00&mdash;11.30</td>
-    <td>Брифинг для участников, пробный тур (13-й этаж второго корпуса КФУ)</td>
+    <td>Брифинг для участников, пробный тур</td>
 </tr>
 <tr>
     <td>11.30&mdash;12.00</td>
     <td>Чайный перерыв</td>
 </tr>
 <tr>
-    <td>12.00&mdash;14.00</td>
-    <td>Развлекательный тур (13-й этаж второго корпуса КФУ)</td>
+    <td>12.00&mdash;13.00</td>
+    <td>Мастер-класс для участников от специалистов компании ОАО "АйСиЭл&mdash;КПО ВС"</td>
 </tr>
 <tr>
-    <td>14.00&mdash;15.30</td>
+    <td>13.00&mdash;14.30</td>
     <td>Обед</td>
 </tr>
 <tr>
-    <td>15.30&mdash;18.30</td>
-    <td>Экскурсия для иногородних участников турнира по Кремлю</td>
+    <td>14.30&mdash;16.30</td>
+    <td>Развлекательный тур</td>
+</tr>
+<tr>
+    <td>16.30&mdash;18.30</td>
+    <td>Экскурсии для иногородних участников турнира</td>
 </tr>
 <tr>
     <td>18.30&mdash;19.00</td>
@@ -105,7 +134,7 @@
 
 
 
-<tr><th colspan="2">15 марта, воскресенье (время московское) </th></tr>
+<tr><th colspan="2">13 марта, воскресенье (время московское) </th></tr>
 <tr>
     <td>9.00&mdash;14.00</td>
     <td>Основной тур</td>
@@ -137,7 +166,7 @@
 <tr>
     <td>19.00</td>
     <td>Отъезд иногородних участников турнира к месту проживания</td>
-</tr-->
+</tr>
 
 
 
