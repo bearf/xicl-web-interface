@@ -25,6 +25,7 @@ $q->close();
 
 
 
+
 // теперь грузим названия команд
 $teams = array();
 $q = $mysqli_->query('select u.id as `id`, u.nickname as `nickname`, t.teamid as `teamid`, t.teamname as `teamname`, t.invited as `invited`, t.education as `studyplace` from (user u left join members m on u.id = m.userid) left join teams t on m.teamid=t.teamid');
@@ -156,7 +157,7 @@ if ($kind==1) {
             ,                   'SELECT submit.PTS, submit.contestid, submit.submitid, submit.userid, submit.problemid, submit.message'
             ,                   'FROM (submit INNER JOIN cntest ON submit.contestid=cntest.contestid) INNER JOIN testing T ON submit.submitId = T.submitId'
             ,                   'WHERE cntest.contestid=%d AND (%s cntest.isneedfreeze = 0 OR cntest.isneedfreeze = 1 AND TIME_TO_SEC(TIMEDIFF(cntest.finish, submit.submittime)) >= cntest.frozetime)'
-            ,                   'AND S.detached=0'
+            ,                   'AND submit.detached=0'
             ,                   'AND T.result=0 AND (totalTime>0 OR totalMemory>0)'
             ,                   'AND submit.resultid <> 21 /* CE */'
             ,                   'AND submit.resultid <> 255 /* FL */'
@@ -197,7 +198,6 @@ if ($kind==1) {
     ));
 }
 // конец построения запроса на извлечение монитора
-
 
 
 // выполнение запроса
