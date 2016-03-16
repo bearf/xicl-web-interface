@@ -3,6 +3,12 @@
 <a href="#" id="notes" class="anchor"></a>
 <h3>Новости</h3>
 
+<p class="message" style="width:350px;">Турнир пройдёт в восьмом учебном корпусе КНИТУ-КАИ им. А.Н. Туполева, <strong>ул. Четаева, д. 18А</strong>
+
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2241.3859197500306!2d49.13552455681517!3d55.821260572160824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x0ef0fd37246b426b!2z0JPQtdGA0LzQsNC90L4t0KDQvtGB0YHQuNC50YHQutC40Lkg0LjQvdGB0YLQuNGC0YPRgiDQvdC-0LLRi9GFINGC0LXRhdC90L7Qu9C-0LPQuNC5!5e0!3m2!1sru!2sru!4v1457610267548" width="368" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<p><img src="http://www.kai.ru/pics/build/9d-big.jpg" style="width:368px;">
+
 <p class="message" style="width:350px;"><strong>Опубликовано <a href="#timetable">расписание турнира</a></strong>
 
 <p class="message" style="width:350px;"><strong>Результаты отборочного тура. Обновлено</strong>
