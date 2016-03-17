@@ -2,6 +2,14 @@
 <div class="wrapper">
 
 <p class="info">
+<a href="#" id="2016" class="anchor"></a>
+<span class="info_header">2016</span>
+результаты&nbsp;&nbsp;::<a href="./files/monitor2016.html">html</a><br />
+задачи&nbsp;&nbsp;::<a href="./files/icl-2016-problems.zip">zip pdf</a><br />
+решения&nbsp;&nbsp;::<a href="./files/icl-2016-solutions.zip">zip</a><br />
+</p>
+
+<p class="info">
 <a href="#" id="2015" class="anchor"></a>
 <span class="info_header">2015</span>
 результаты&nbsp;&nbsp;::<a href="./files/monitor2015.html">html</a><br />

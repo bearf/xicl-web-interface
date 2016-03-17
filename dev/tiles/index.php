@@ -3,73 +3,49 @@
 <a href="#" id="notes" class="anchor"></a>
 <h3>Новости</h3>
 
-<p class="message" style="width:350px;">Турнир пройдёт в восьмом учебном корпусе КНИТУ-КАИ им. А.Н. Туполева, <strong>ул. Четаева, д. 18А</strong>
+<p class="message"><strong>Турнир'2016 завершён</strong></p>
+ 
+ <p>13 марта в Казани прошел ежегодный <a href="./files/monitor2016.html">открытый командный турнир по программированию</a> среди студентов и школьников Республики Татарстан. 
+ 
+ <p>Было проверено <strong>семьсот семьдесят четыре</strong> решения, написанных <strong>ста четырнадцатью</strong> участниками из <strong>тридцати девяти</strong> команд по <strong>тринадцати</strong> различным задачам за <strong>пять</strong> часов. Абсолютным победителем стала <strong>команда "Dandelion" Уральского федерального университета им. Б.Н. Ельцина (Екатеринбург)</strong>: Алексей Данилюк, Никита Сивухин, Олег Меркурьев. Тренер &mdash; М.В.&nbsp;Рубинчик.
+ 
+ <p>Второе место в студенческом зачёте заняла команда <strong>"Base", Санкт-Петербургский государственный университет</strong>: Игорь Пышкин, Алексей Гордеев, Станислав Ершов. Тренер &mdash; А.С.&nbsp;Лопатин.
+ 
+ <p>Третье место в студенческом зачёте заняла команда <strong>"Jinotega", Московский физико-технический институт</strong>: Иван Смирнов, Артём Жук, Константин Семёнов. Тренер &mdash; М.И.&nbsp;Тихомиров.</li>
+ 
+ <p>Премию Президента Республики как лучшей студенческой команде Татарстана выиграла <strong>команда #3 Казанского (Приволжского) федерального университета</strong>: Никита Савельев, Алишер Жуманиёзов, Владислав Белов. Тренер &mdash; К.Р.&nbsp;Хадиев. 
+ 
+ <p>Первое место в школьном зачёте заняла команда <strong>"Awww", составленная из учащихся СУНЦ УрФУ, лицея №165 Нижнего Новгорода и Московского химического лицея</strong>: Александра Дроздова, Денис Ожиганов, Андрей Календаров. Тренер &mdash; А.С.&nbsp;Шмелёв.
+             
+ <p>Второе место в школьном зачёте заняла команда <strong>ЧУ ДО "Школа программистов" (Мытищи)</strong>: Денис Солонков, Андрей Кончагин, Даниил Николенко. Тренер &mdash; Т.Р.&nbsp;Хисматуллин
+ 
+ <p>Третье место в школьном зачёте и премию Президента Республики как лучшей школьной команде Татарстана выиграла <strong>команда "Камские богатыри", составленная из учащихся гимназии №26 (Набережные Челны)</strong>: Искандер Азангулов, Фаргат Шарипов, Александр Кора. Тренер&nbsp;&mdash;&nbsp;Е.З.&nbsp;Бадагиева.
+     
+ <p>Призёрами турнира стали:
+ 
+     <ul><li><strong>Университет ИТМО #1</strong> (Санкт-Петербург) &mdash; диплом II степени;</li>
+         <li>сборная команда <strong>Уральского федерального университета, Львовского национального университета и Пермского государственного национального исследовательского университета</strong> &mdash; диплом II степени;</li>
+         <li><strong>"Cryptozoology"</strong>, Московский физико-технический институт &mdash; диплом III степени;</li>
+         <li><strong>"Trinity"</strong>, Московский государственный университет им. М.В.&nbsp;Ломоносова; &mdash; диплом III степени;</li>
+         <li><strong>SPb SU #3</strong>, Санкт-Петербургский государственный университет; диплом III степени;</li>
+         <br /><br />
+         <li><strong>"Altair"</strong>, ГБОУ Лицей №1580 г. Москвы и МБОУ Лицей № 8 г. Ставрополя &mdash; диплом II степени;</li>
+         <li><strong>"Lyceum KFU #2"</strong>, ОШИ Лицей-интернат им. Н.И. Лобачевского при К(П)ФУ &mdash; диплом II степени;</li>
+         <li><strong>Mathematical Grammar School</strong> (Белград, Сербия) &mdash; диплом II степени;</li>
+         <li><strong>"Lyceum KFU #1"</strong>, ОШИ Лицей-интернат им. Н.И. Лобачевского при К(П)ФУ &mdash; диплом II степени;</li>
+         <li><strong>"K-131-1"</strong>, МАОУ Физико-математический лицей №131 (Казань) &mdash; диплом II степени;</li>
+         <li><strong>"Malinux"</strong>, Лицей-интернат №7 (Казань) &mdash; диплом III степени.</li>
 
-<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2241.3859197500306!2d49.13552455681517!3d55.821260572160824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x0ef0fd37246b426b!2z0JPQtdGA0LzQsNC90L4t0KDQvtGB0YHQuNC50YHQutC40Lkg0LjQvdGB0YLQuNGC0YPRgiDQvdC-0LLRi9GFINGC0LXRhdC90L7Qu9C-0LPQuNC5!5e0!3m2!1sru!2sru!4v1457610267548" width="368" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-<p><img src="http://www.kai.ru/pics/build/9d-big.jpg" style="width:368px;">
-
-<p class="message" style="width:350px;"><strong>Опубликовано <a href="#timetable">расписание турнира</a></strong>
-
-<p class="message" style="width:350px;"><strong>Результаты отборочного тура. Обновлено</strong>
-
-<p><strong>Результаты</strong>: <a href="https://docs.google.com/spreadsheets/d/13mRwICZqhW6_gzrsmnzmvoa1ke0FRzsgD-HA4nOIzp4/edit?usp=sharing">https://docs.google.com/spreadsheets/d/13mRwICZqhW6_gzrsmnzmvoa1ke0FRzsgD-HA4nOIzp4/edit?usp=sharing</a>.
-
-<p><strong>Важно</strong>: если ваша команда приглашена на Турнир (по результатам отбора, или по личному приглашению), то, пожалуйста, в срок до 29 февраля включительно:
-
-<ul>
-<li>заполните <a href="https://docs.google.com/forms/d/1LWVDIHPubQ7thRv4E4kD5kXJw7u8SnZc9fnNod1RFoA/viewform">форму подтверждения участия</a> (одна на команду);</li>
-<li>укажите состав, заполнив три <a href="https://docs.google.com/forms/d/1aZ956Z_tLWptQJFkuUR01vDuzVShS_cIWW879hu2e-g/viewform">анкеты участника турнира</a>.</li></ul>
-
-<p>Если ваша команда по каким-то причинам не может принять участие в турнире, пожалуйста, напишите об этом письмо Наталье Гришиной на адрес natalia.grishina@icl-services.com.
-
-<p>На эту минуту своё участие не подтвердили следующие команды:
-
-<ul><li>SPb SU Base: Ershov, Gordeev, Pyshkin</li>
-<li>Moscow SU Trinity: Akhmedov, Gorbunov, Shlyunkin</li>
-<li>Moscow IPT Jinotega: Semenov, Smirnov, Zhuk</li>
-<li>SPb SU 3: Gulikov, Makarov, Sayranov</li>
-<li>Belarusian SUIR 2: Sobal, Vistyazh, Volchek</li>
-<li>UrFU + LNU + PermSU: Kuchumov, Mayorov, Pryshchenko</li>
-<li>Innopolis U Known: Kiyan, Mashrabov, Savinov</li>
-<li>Mytischi Programming School</li>
-<li>Innopolis U Optimus</li>
-<li>SCH_Kazan Lyceum 131 Levushka</li>
-<li>SCH_Kazan Lyceum 131 Kazanskoe derevo</li>
-<li>Malinux (Казань):Нуриев Наиль, Кидрачев Альберт, Гумеров Арслан</li>
-<li>Они (Казань): Староверов Арсений, Зверев Игорь. Терехов Николай</li>
-<li>KPFU Lyceum #7</li></ul>
-
-<p>Следующие команды подтвердили участие, но не указали полную информацию о составах:
-
-<ul><li>Nizhny Novgorod + Moscow + Kachkanar Awww</li>
-<li>Kazan Lyceum №131 HArMoNY</li>
-<li>Chelyabinsk Lyceum №31 TEAM 1489</li>
-<li>Lyceum KFU $</li>
-<li>Kazan + Aktanysh Sch №122 + №19 + №3 Unique</li>
-<li>Kazan Federal U #2</li>
-<li>Nizhnekamsk Lyceum №24 LI24</li>
-<li>Kazan Federal U #4 Noobs</li>
-<li>Kazan Federal U #3</li>
-<li>SCH_Nizhnekamsk Lyceum #35 + Lyceum #24</li>
-<li>ITL KFU ARA</li>
-<li>ITL KFU #infa 100</li>
-<li>ITL KFU #1</li></ul>
-
-<p>Пожалуйста, не опаздывайте, укажите всю информацию в срок.
-
-<p class="message" style="width:350px;"><strong>ICL'16 &mdash; 13 марта. Обновлено</strong>
-    
-<p>13 марта 2016 года пройдет очередной Турнир ICL. Это соревнование станет уже шестнадцатым по счёту.
-    
-<p>Участники Турнира определятся по итогам заочного отборочного тура, который будет проведен на базе одного из этапов <a href="opencup.ru">Открытого кубка по программированию</a> от 14 февраля.  
-    
-<p>Команда-победитель основного тура увезёт домой главный приз &mdash; три ультрабука производства ОАО &laquo;АйСиЭл&mdash;КПО ВС&raquo;. 
-    
-<p>В программу Турнира входит небольшое развлекательное состязание в первый день. Это будет уже знакомый HardCoreDer: &laquo;угадай задачу по тестам и успей решить её раньше соперника по паре&raquo;. 
-    
-<p>Как обычно, питание и проживание иногородних участников оплачивается организаторами.
-    
+     </ul>
+ 
+ <p><strong>Самое быстрое решение</strong> (5 минут 26 секунд) выполнила команда UrFU&nbsp;+&nbsp;LNU&nbsp;+&nbsp;PermSU. <strong>Последнее успешное решение</strong> (4 часа 57 минут 20 секунд) осталось за "Школой программистов" из Мытищ. <strong>Самой упорной</strong> оказалась сборная команда Лицея №35 и Лицея №24 из Нижнекамска, сдавшая правильное решений одной из задач после 10 неудачных попыток. А <strong>самым юным участником</strong> оказался Азат Исмагилов, представлявший Лицей им. Н.И. Лобачевского при К(П)ФУ. На момент проведения соревнований ему исполнилось 14 лет.
+ 
+ <p><strong>Развлекательный тур</strong> "Hardcoreder'2016" выиграла команда Ural FU Dandelion, которая в финале в напряжённой борьбе одолела "Школу программистов". Как и в прошлом году мы решили наградить бонусным призом команду, занявшую первое место в таблице <strong>Hardcoreder по правилам ACM</strong> &mdash; Moscow IPT Cryptozoology.
+  		  
+ <p>Надеемся, что наш турнир вам понравился. До встречи в следующем году!
+ <br />
+ 
+      
 <p class="message" style="width:350px;"><strong>Для того чтобы принять участие в Турнире, вы должны:</strong></p>
 <ul>
     <li>собрать команду из 3 школьников или 3 студентов;</li>
